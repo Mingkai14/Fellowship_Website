@@ -1,0 +1,129 @@
+---
+layout: default
+title: Community
+permalink: /Community/
+---
+
+<!-- begin authors -->
+<section class="section authors">
+
+  <div class="authors__inner">
+    <div class="container">
+
+      <div class="authors__head">
+        <h1 class="authors__title">{{ page.title }}</h1>
+      </div>
+
+      <div class="row">
+        <!-- for Krzysztof -->
+        {% for author in site.authors %}
+        {% if author.username=="Krzysztof Poterlowicz" %}
+          {% assign post_count = site.posts | where:"author", author.username %}
+          <div class="col col-3 col-w-6 col-t-12 animate">
+            <div class="authors__info" style="height: 330px;">
+              <a class="authors__image" href="{{ author.url }}"><img class="lazy" data-src="{{ author.image }}" alt="{{ author.name }}"></a>
+              <div class="authors__meta">
+                <div style="width: 100%;">
+                  <h2 class="authors__name"><a class="authors__link" style="font-size: 18px;" href="{{ author.url }}">{{ author.name }}</a></h2>
+                </div>
+                  <div>
+                  <span class="authors__posts__count">{{ post_count.size }} {% if post_count.size < 2 %}Post{% else %}Posts{% endif %}</span>
+                </div>
+              </div>
+              {% if author.role %}
+              <p style="font-size: 16px; margin-bottom: 0px;">Role : {{ author.role }}</p>
+              {% endif %}
+              <div style="height: 5%;"></div>
+              {% if author.content %}
+              <p class="authors__description" style="font-size: 15px;">{{ author.content }}</p>
+              {% endif %}
+            </div>
+          </div>
+        {% endif %}
+        {% endfor %}
+
+        <!-- for kasia -->
+        {% for author in site.authors %}
+        {% if author.username=="Katarzyna Kamieniecka" %}
+          {% assign post_count = site.posts | where:"author", author.username %}
+          <div class="col col-3 col-w-6 col-t-12 animate">
+            <div class="authors__info" style="height: 330px;">
+              <a class="authors__image" href="{{ author.url }}"><img class="lazy" data-src="{{ author.image }}" alt="{{ author.name }}"></a>
+              <div class="authors__meta">
+                <div style="width: 100%;">
+                  <h2 class="authors__name"><a class="authors__link" style="font-size: 18px;" href="{{ author.url }}">{{ author.name }}</a></h2>
+                </div>
+                  <div>
+                  <span class="authors__posts__count">{{ post_count.size }} {% if post_count.size < 2 %}Post{% else %}Posts{% endif %}</span>
+                </div>
+              </div>
+              {% if author.role %}
+              <p style="font-size: 16px; margin-bottom: 0px;">Role : {{ author.role }}</p>
+              {% endif %}
+              <div style="height: 5%;"></div>
+              {% if author.content %}
+              <p class="authors__description" style="font-size: 15px;">{{ author.content }}</p>
+              {% endif %}
+            </div>
+          </div>
+        {% endif %}
+        {% endfor %}
+        <!-- for xenia -->
+        {% for author in site.authors %}
+        {% if author.username=="Xenia Perez Sitja" %}
+          {% assign post_count = site.posts | where:"author", author.username %}
+          <div class="col col-3 col-w-6 col-t-12 animate">
+            <div class="authors__info" style="height: 330px;">
+              <a class="authors__image" href="{{ author.url }}"><img class="lazy" data-src="{{ author.image }}" alt="{{ author.name }}"></a>
+              <div class="authors__meta">
+                <div style="width: 100%;">
+                  <h2 class="authors__name"><a class="authors__link" style="font-size: 18px;" href="{{ author.url }}">{{ author.name }}</a></h2>
+                </div>
+                  <div>
+                  <span class="authors__posts__count">{{ post_count.size }} {% if post_count.size < 2 %}Post{% else %}Posts{% endif %}</span>
+                </div>
+              </div>
+              {% if author.role %}
+              <p style="font-size: 16px; margin-bottom: 0px;">Role : {{ author.role }}</p>
+              {% endif %}
+              <div style="height: 5%;"></div>
+              {% if author.content %}
+              <p class="authors__description" style="font-size: 15px;">{{ author.content }}</p>
+              {% endif %}
+            </div>
+          </div>
+        {% endif %}
+        {% endfor %}
+        <!-- for all -->
+        {% for author in site.authors %}
+        {% if author.username!="Krzysztof Poterlowicz" and author.username!="Katarzyna Kamieniecka" and author.username!="Xenia Perez Sitja"%}
+          {% assign post_count = site.posts | where:"author", author.username %}
+          <div class="col col-3 col-w-6 col-t-12 animate">
+            <div class="authors__info" style="height: 330px;">
+              <a class="authors__image" href="{{ author.url }}"><img class="lazy" data-src="{{ author.image }}" alt="{{ author.name }}"></a>
+              <div class="authors__meta">
+                <div style="width: 100%;">
+                  <h2 class="authors__name"><a class="authors__link" style="font-size: 18px;" href="{{ author.url }}">{{ author.name }}</a></h2>
+                </div>
+                  <div>
+                  <span class="authors__posts__count">{{ post_count.size }} {% if post_count.size < 2 %}Post{% else %}Posts{% endif %}</span>
+                </div>
+              </div>
+              {% if author.role %}
+              <p style="font-size: 16px; margin-bottom: 0px;">Role : {{ author.role }}</p>
+              {% endif %}
+              <div style="height: 5%;"></div>
+              {% if author.content %}
+              <p class="authors__description" style="font-size: 15px;">{{ author.content }}</p>
+              {% endif %}
+            </div>
+          </div>
+        {% endif %}
+        {% endfor %}
+      </div>
+
+    </div>
+  </div>
+
+</section>
+<!-- end authors -->

@@ -1,0 +1,44 @@
+// from Mingkai
+
+.tags {
+  margin-bottom: 100px;
+  font-family: Fira Code, monospace;
+
+  &__head {
+    margin: 60px 0;
+  }
+
+  &__title {
+    font-size: 52px;
+    text-align: center;
+  }
+  &__content {
+    &__item {
+      display: flex;
+      justify-content: center;
+      a {
+        background: #e2e8f0;
+        color: #000000;
+        font-size: 20px;
+        padding: 4px 8px;
+        border-radius: 6px;
+        margin-bottom: 20px;
+        &.a1{
+          background: #e2e8f0;
+        }
+        &.a2{
+          background: #6cdcc4;
+        }
+        &.a3{
+          background: #fceccb;
+        }
+        &:hover {
+         
+          box-shadow: 0 0 #0000,0 0 #0000,0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -2px rgba(0,0,0,.1);;
+          text-decoration-line: underline;
+          transform: translate(0,0) rotate(0) skewX(0) skewY(0) scaleX(1.1) scaleY(1.1)
+        }
+      }
+    }
+  }
+}
