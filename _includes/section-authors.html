@@ -15,7 +15,7 @@
             <!-- for Krzysztof -->
             {% for author in site.authors limit:5 %}
               {% if author.username == "Krzysztof Poterlowicz" %}
-                <a href="{{ author.url }}" class="section-authors__image">
+                <a href="{{ site.baseurl }}{{ author.url }}" class="section-authors__image">
                   <img class="lazy" data-src="{{ author.image }}" alt="{{ author.name }}">
                 </a>
               {% endif %}
@@ -23,7 +23,7 @@
             <!-- for kasia -->
             {% for author in site.authors limit:5 %}
               {% if author.username == "Katarzyna Kamieniecka" %}
-                <a href="{{ author.url }}" class="section-authors__image">
+                <a href="{{ site.baseurl }}{{ author.url }}" class="section-authors__image">
                   <img class="lazy" data-src="{{ author.image }}" alt="{{ author.name }}">
                 </a>
               {% endif %}
@@ -31,7 +31,7 @@
             <!-- for xenia -->
             {% for author in site.authors limit:5 %}
               {% if author.username == "Xenia Perez Sitja" %}
-                <a href="{{ author.url }}" class="section-authors__image">
+                <a href="{{ site.baseurl }}{{ author.url }}" class="section-authors__image">
                   <img class="lazy" data-src="{{ author.image }}" alt="{{ author.name }}">
                 </a>
               {% endif %}
@@ -39,7 +39,7 @@
             <!-- for all -->
             {% for author in site.authors limit:5 %}
               {% if author.username != "Krzysztof Poterlowicz" and author.username != "Katarzyna Kamieniecka" and author.username != "Xenia Perez Sitja"%}
-                <a href="{{ author.url }}" class="section-authors__image">
+                <a href="{{ site.baseurl }}{{ author.url }}" class="section-authors__image">
                   <img class="lazy" data-src="{{ author.image }}" alt="{{ author.name }}">
                 </a>
               {% endif %}

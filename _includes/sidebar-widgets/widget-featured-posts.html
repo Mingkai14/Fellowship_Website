@@ -13,7 +13,7 @@
     {% if fp.url != page.url %}
     {% assign count = count | plus:1 %}
     <div class="post-featured-content">
-      <a href="{{ fp.url }}" class="post-featured-image">
+      <a href="{{ site.baseurl }}{{ fp.url }}" class="post-featured-image">
         {% if fp.image and fp.video_embed %}
         <div class="video-icon">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
@@ -23,7 +23,7 @@
         {% endif %}
         <img class="lazy" data-src="{{ fp.image }}" alt="{{ fp.title }}">
       </a>
-      <h3 class="post-featured-title"><a href="{{ fp.url }}">{{ fp.title }}</a></h3>
+      <h3 class="post-featured-title"><a href="{{ site.baseurl }}{{ fp.url }}">{{ fp.title }}</a></h3>
     </div>
     {% if count == 3 %}{% break %}
     {% endif %}

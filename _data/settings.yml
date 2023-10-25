@@ -28,7 +28,7 @@ menu_settings:
 # Call to action button
 cta_button:
   enable: true
-  cta_button_link: '/about/'
+  cta_button_link: '/Fellowship_Website/about/'
   cta_button_text: About the Fellowship
 
 
