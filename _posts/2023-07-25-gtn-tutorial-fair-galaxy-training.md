@@ -1,17 +1,15 @@
 ---
 layout: post
-title: FAIR Galaxy Training Material
+title: GTN tutorial. FAIR Galaxy Training Material
 description: A Galaxy Training Network tutorial shows how to set and use existing resources to make Galaxy training development and content creation FAIR.
-date: 2023-10-03 14:20:35 +0300
-author: [Krzysztof Poterlowicz, Katarzyna Kamieniecka]
-image: /images/post_sample.jpg
-tag: [Galaxy,Courses]
+date: 2023-07-25
+author: [k-kamieniecka, k-poterlowicz]
+image: /images/fair-galaxy-training-course.jpg
+tag: [Courses, FAIR data collection]
 featured: true
 ---
 
-<a type="button" class="home-button" href="https://training.galaxyproject.org/training-material/topics/fair/tutorials/fair-gtn/tutorial.html">
-      Go to the GTN course
-</a>
+<a type="button" class="home-button" href="https://gxy.io/GTN:T00350"> Go to the GTN tutorial</a>
 <br>
 <br>
 
