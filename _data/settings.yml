@@ -26,6 +26,8 @@ menu_settings:
         url: '/tags/?tag=outreach+activities'
       - title: "Contributions to resources"
         url: "/tags/?tag=contributions+to+resources"
+      - title: "Sponsorships for events"
+        url: "/tags/?tag=sponsorship+for+events"
     - title: "Community"
       url: "/Community/"
 
@@ -54,7 +56,10 @@ tags_section:
   tags:
     - tag: "RDMbites"
     - tag: "Courses"
-    - tag: "Outreach Activities"
+    - tag: "Outreach activities"
+    - tag: "Contributions to resoureces"
+    - tag: "Training delivery"
+    - tag: "Sponsorships for events"
 
 # You can add many tag sections to the homepage; each section will show the recent posts by the tag.
 
