@@ -15,12 +15,17 @@ menu_settings:
       url: "/"
     - title: "Collections"
       url: "/Collection/"
-    - title: 'RDMbites'
-      url: '/tags/?tag=RDMbites'
-    - title: 'Courses'
-      url: '/tags/?tag=Courses'
-    - title: 'Outreach Activities'
-      url: '/tags/?tag=outreach+activities'
+    - title: Activities
+      - title: 'RDMbites'
+        url: '/tags/?tag=RDMbites'
+      - title: 'Courses'
+        url: '/tags/?tag=Courses'
+      - title: "Training delivery"
+        url: "/tags/?tag=training+delivery"
+      - title: 'Outreach activities'
+        url: '/tags/?tag=outreach+activities'
+      - title: "Contributions to resources"
+        url: "/tags/?tag=contributions+to+resources"
     - title: "Community"
       url: "/Community/"
 
@@ -68,12 +73,9 @@ footer_description: Aiming to embed Research Data Management (RDM) know-how into
 
 # Social Links
 social:
-- {icon: "twitter", link: "https://twitter.com"}
-- {icon: "facebook", link: "https://facebook.com"}
-- {icon: "codepen", link: "https://codepen.io"}
-- {icon: "pinterest", link: "https://pinterest.com"}
-- {icon: "github", link: "https://github.com"}
-- {icon: "youtube", link: "https://youtube.com"}
+- {icon: "twitter", link: "https://twitter.com/elixirnodeuk"}
+- {icon: "linkedin", link: "https://www.linkedin.com/company/elixir-uk"}
+- {icon: "youtube", link: "https://www.youtube.com/@elixir-uk"}
 
 # Example of adding a new link to the footer - {icon: "instagram", link: "https://instagram.com"}
 # Other icons can be found at https://ionicons.com/v4/
