@@ -1,5 +1,5 @@
 ---
-username: Krzysztof Poterlowicz
+username: k-poterlowicz
 name: Krzysztof Poterlowicz
 image: 'https://avatars.githubusercontent.com/poterlowicz-lab'
 role: Principal investigator

@@ -1,5 +1,5 @@
 ---
-username: Xenia Perez Sitja
+username: xp-sitja
 name: Xenia Perez Sitja
 image: 'https://avatars.githubusercontent.com/sitjart'
 role: Project team

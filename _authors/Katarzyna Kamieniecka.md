@@ -1,5 +1,5 @@
 ---
-username: Katarzyna Kamieniecka
+username: k-kamieniecka
 name: Katarzyna Kamieniecka
 image: 'https://avatars.githubusercontent.com/kkamieniecka'
 role: Project team
