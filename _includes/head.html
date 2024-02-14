@@ -63,4 +63,9 @@
   <link rel="icon" type="/image/x-icon" href="/images/favicon.ico">
 
   <script src="/js/from_Mingkai.js"></script>
+  {% if page.bioschemas %}
+    <script type="application/ld+json">
+        {{ page.bioschemas | jsonify }}
+    </script>
+  {% endif %}
 </head>
